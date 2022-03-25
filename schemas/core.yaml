@@ -400,6 +400,10 @@ paths:
                     $ref: '#/components/schemas/Error'
                 required:
                   - message
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8aa5166 (Initial Commit)
   /support:
     post:
       tags:
