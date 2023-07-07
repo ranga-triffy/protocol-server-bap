@@ -1,11 +1,11 @@
 # Protocol server
 
-## Add BAP entry in registry
+## Add BAP entry in the registry
 
-1. Go to url <https://registry.becknprotocol.io/login> and to login with your google account.
-2. Go to url <https://registry.becknprotocol.io/network_participants/blank> and create network Participant Id.
-3. Go to url <https://registry.becknprotocol.io/network_participants/index> and edit the created Participant Id.
-4. On the edit page of Network Participant, go to Network Role tab and click on Add (+) button and create a new Network Role by filling below details:
+1. Go to URL <https://registry.becknprotocol.io/login> and login with your Google account.
+2. Go to URL <https://registry.becknprotocol.io/network_participants/blank> and create network Participant Id.
+3. Go to URL <https://registry.becknprotocol.io/network_participants/index> and edit the created Participant Id.
+4. On the edit page of Network Participant, go to the Network Role tab and click on Add (+) button and create a new Network Role by filling below details:
 
 - **Network domain**: Domain for which BAP will be triggered.
 - **Type**: BAP.
@@ -14,7 +14,7 @@
 - **Status**: SUBSCRIBED.
 - After filling it up, hit the Done button.
 
-5. On the edit page of Network Participant, go to Participant Key tab and click on Add (+) button and create a new Participant Key by filling below details:
+5. On the edit page of Network Participant, go to the Participant Key tab and click on Add (+) button and create a new Participant Key by filling below details:
 
 - **Network Participant**: Same as Participant Id.
 - **Key Id**: unique string value.
@@ -25,12 +25,12 @@
 - **Verified**: Check this to make it verified
 - After filling it up, hit the Done button.
 
-## Add BPP entry in registry
+## Add BPP entry in the registry
 
-1. Go to url <https://registry.becknprotocol.io/login> and to login with your google account.
-2. Go to url <https://registry.becknprotocol.io/network_participants/blank> and create network Participant Id.
-3. Go to url <https://registry.becknprotocol.io/network_participants/index> and edit the created Participant Id.
-4. On the edit page of Network Participant, go to Network Role tab and click on Add (+) button and create a new Network Role by filling below details:
+1. Go to URL <https://registry.becknprotocol.io/login> and log in with your Google account.
+2. Go to URL <https://registry.becknprotocol.io/network_participants/blank> and create network Participant Id.
+3. Go to URL <https://registry.becknprotocol.io/network_participants/index> and edit the created Participant Id.
+4. On the edit page of Network Participant, go to the Network Role tab and click on Add (+) button and create a new Network Role by filling below details:
 
 - **Network domain**: Domain for which BPP will be triggered.
 - **Type**: BPP.
@@ -39,7 +39,7 @@
 - **Status**: SUBSCRIBED.
 - After filling it up, hit the Done button.
 
-5. On the edit page of Network Participant, go to Participant Key tab and click on Add (+) button and create a new Participant Key by filling below details:
+5. On the edit page of Network Participant, go to the Participant Key tab and click on Add (+) button and create a new Participant Key by filling below details:
 
 - **Network Participant**: Same as Participant Id.
 - **Key Id**: unique string value.
@@ -84,7 +84,7 @@ cd protocol-server-bap-client
 3. Switch to  branch
 
 ```bash
-git checkout v2-0.9.4-fix
+git checkout v1-1.1.0
 ```
 
 4. Copy the config
@@ -267,7 +267,7 @@ cd protocol-server-bap-network
 3. Switch to branch
 
 ```bash
-git checkout v2-0.9.4-fix
+git checkout v1-1.1.0
 ```
 
 4. Copy the config
@@ -442,7 +442,7 @@ cd protocol-server-bpp-client
 3. Switch to branch
 
 ```bash
-git checkout v2-0.9.4-fix
+git checkout v1-1.1.0
 ```
 
 4. Copy the config
@@ -618,7 +618,7 @@ cd protocol-server-bap-network
 3. Switch to branch
 
 ```bash
-git checkout v2-0.9.4-fix
+git checkout v1-1.1.0
 ```
 
 4. Copy the config
