@@ -8,6 +8,10 @@ export class ActionUtils{
                 return ResponseActions.on_cancel;
             case RequestActions.confirm:
                 return ResponseActions.on_confirm;
+            case RequestActions.on_search:
+                return ResponseActions.on_search;
+            case RequestActions.on_select:
+                return ResponseActions.on_select;
             case RequestActions.init:
                 return ResponseActions.on_init;
             case RequestActions.rating:

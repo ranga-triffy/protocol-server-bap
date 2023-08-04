@@ -5,6 +5,8 @@ import { actionConfigSchema } from "./actionConfig.schema";
 export enum RequestActions {
     search = "search",
     select = "select",
+    on_search = "on_search",
+    on_select = "on_select",
     init = "init",
     confirm = "confirm",
     update = "update",
@@ -40,6 +42,8 @@ export enum RequestType {
 export const actionsAppConfigSchema = z.object({
     requests: z.object({
         [RequestActions.search]: actionConfigSchema.optional(),
+        [RequestActions.on_search]: actionConfigSchema.optional(),
+        [RequestActions.on_select]: actionConfigSchema.optional(),
         [RequestActions.select]: actionConfigSchema.optional(),
         [RequestActions.init]: actionConfigSchema.optional(),
         [RequestActions.confirm]: actionConfigSchema.optional(),
